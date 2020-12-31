@@ -1,5 +1,4 @@
 require 'pry'
-
 def get_user_input
   gets.chomp
 end
@@ -12,16 +11,14 @@ end
 
 def selection(num)
   if num == 1
-    
- return "YUM YUM MUNCH MUNCH MUNCH"
+     "YUM YUM MUNCH MUNCH MUNCH"
   elsif num == 2
-    
-   return "HAM HAM HAM IN MY TUMMY"
+     "HAM HAM HAM IN MY TUMMY"
   end
- 
 end
 
 def runner
   prompt_user
   selection(get_user_input)
 end
+
